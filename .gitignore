@@ -1,0 +1,27 @@
+# Node modules (don't commit dependencies)
+node_modules/
+
+# Environment variables (never commit these!)
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore build artifacts or dist folders
+dist/
+build/
+
+# Optional: VS Code settings
+.vscode/
+
+# Optional: IDE-specific files (e.g., JetBrains)
+.idea/
+
+# Optional: coverage reports from testing
+coverage/
